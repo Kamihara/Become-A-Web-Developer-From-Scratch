@@ -1,20 +1,33 @@
-h1,h2 {
-    color: red;
-    font-family: Arial;
-    font-size: 50px;
+
+#Container{
+    border: 1px solid black;
+    height: auto;
+    width: 700px;
+    position: relative;
+    margin: 0px auto;
 }
 
-p {
-    font-family: Arial;
-    font-size: 14px;
-}
-
-p.Alex{
+#Intro{
+    border: 1px solid black;
     color: blue;
-    font-size: 20px;
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    position: fixed;
 }
 
-.spantag{
-    font-size: 40px;
+#Overview{
+    border: 1px solid black;
     color: blue;
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+}
+
+#Motivation{
+    border: 1px solid black;
+    color: blue;
+    width: 100%;
+    height: auto;
+    background-color: red;
 }
