@@ -1,3 +1,44 @@
+body{
+    background-color: #fff674;
+}
+
+#nav{
+    border: 1px solid black;
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+#nav ul{
+    list-style-type: none;
+}
+
+#nav ul li{
+    border: 1px solid black;
+    width: 70px;
+    display: inline;
+    padding: 10px;
+}
+
+#nav ul li a:link{
+    text-decoration: none;
+}
+
+#nav ul li a:visited{
+    text-decoration: none;
+    color: blue;
+}
+
+#nav ul li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav ul li a:active{
+    text-decoration: none;
+    color: red;
+}
 
 #Container{
     border: 1px solid black;
@@ -9,11 +50,11 @@
 
 #Intro{
     font-family: Arial;
-    border: 1px solid black;
-    color: blue;
+    border: 5px solid #d93773;
+    color: #5d65b4;
     width: 100%;
     height: auto;
-    background-color: orange;
+    background-color: #33FF99;
     padding: 30px 20px 20px 10px;
 }
 
