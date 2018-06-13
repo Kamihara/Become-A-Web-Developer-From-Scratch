@@ -8,15 +8,18 @@
 }
 
 #Intro{
+    font-family: Arial;
     border: 1px solid black;
     color: blue;
     width: 100%;
     height: auto;
     background-color: orange;
     position: fixed;
+    line-height: em;
 }
 
 #Overview{
+    font-family: "Times New Roman";
     border: 1px solid black;
     color: blue;
     width: 100%;
