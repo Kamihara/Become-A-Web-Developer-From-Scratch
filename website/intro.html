@@ -5,17 +5,18 @@
     <title></title>
     <script type="text/javascript">
 
+
         function firstname() {
-            document.write("Yoshito");
+            var first = "Yoshito";
+            var second = "Kamihara";
+            var space = " ";
+            var result = first+space+second;
+
+            return result
         }
 
-        function lastname() {
-            document.write("Kamihara");
-        }
-
-        firstname();
-        lastname();
-
+        var text = firstname();
+        document.write(text);
 
 
     </script>
